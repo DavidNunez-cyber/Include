@@ -34,9 +34,14 @@ Capturas Avast Free:
 <img width="1010" height="674" alt="Screenshot 2026-01-21 092549" src="https://github.com/user-attachments/assets/e92c37c5-82fc-4cbf-846c-4b342e14bf35" />
 
 ## 2. Ransomware
-- **Qué es**: [def glosario].
-- **Amenaza 2026**: 1. [ej1] 2. [ej2] 3. [ej3].
-- Fuentes: [elladodelmal].
+- **Qué es**: Programa malicioso que cifra archivos y exige rescate para descifrarlos..
+
+- **3 artículos Chema Alonso**:
+  1. [WannaCry]: 70 países, via spam+exploit MS17-010.[web:78]
+  2. [Consejos 2021]: Backup 3-2-1, no pagar.[web:79]
+  3. [Eliminar ransomware]: Decryptors NoMoreRansom.[web:81]
+
+- **Tendencia 2026**: IA+RaaS, doble extorsión.[web:69]
 
 ## 3. Password Monster
 - 5 contraseñas generadas:  
