@@ -37,11 +37,11 @@ Capturas Avast Free:
 - **Qué es**: Programa malicioso que cifra archivos y exige rescate para descifrarlos..
 
 - **3 artículos Chema Alonso**:
-  1. [WannaCry]: 70 países, via spam+exploit MS17-010.[web:78]
-  2. [Consejos 2021]: Backup 3-2-1, no pagar.[web:79]
-  3. [Eliminar ransomware]: Decryptors NoMoreRansom.[web:81]
+  1. [WannaCry](https://www.elladodelmal.com/2017/05/el-ataque-del-ransomware-wannacry.html): 70 países, via spam+exploit MS17-010.
+  2. [Consejos 2021](https://www.elladodelmal.com/2021/05/ransomware-unos-consejos-y-cuidados.html): Backup 3-2-1, no pagar.
+  3. [Eliminar ransomware](https://www.elladodelmal.com/2015/05/como-eliminar-algun-ransomware.html): Decryptors NoMoreRansom.
 
-- **Tendencia 2026**: IA+RaaS, doble extorsión.[web:69]
+- **Tendencia 2026**: [Ransomware 3.0](https://cybersecuritynews.es/ia-agentica-y-ransomware-3-0-las-claves-del-riesgo-digital-en-2026/), [IA+RaaS](https://cyberlideriamgzn.es/ciberseguridad-en-el-2026-5-amenazas-que-redefiniran-el-riesgo-digital/), [doble extorsión](https://ciberseguridadtic.es/actualidadendpoint/el-ransomware-escala-en-2025-ataques-mas-frecuentes-extorsion-por-robo-de-datos-...).
 
 ## 3. Password Monster
 - 5 contraseñas generadas:  
