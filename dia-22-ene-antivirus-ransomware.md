@@ -45,8 +45,12 @@ Capturas Avast Free:
 
 ## 3. Password Monster
 - 5 contraseñas generadas:  
-  1. [pass1] → Tiempo crack: X  
-  ![Screenshot Monster](captura)
+  1. [LastPassword estandard](https://www.lastpass.com/es/features/password-generator) n"W9,R-5c8-7 → Tiempo crack: 857 mil millones de años 
+  2. [1Ppassword.com estandard](CjwKCAiAssfLBhBDEiwAcLpwfjQcx9RCccXSvH8OY3MzgrjUKYrHtySi3HvuTAsUai3l38LIvXFwyhoCNPsQAvD_BwE) 3q9afQ3JBig23VKKY4e1 → Tiempo crack: 24 millones de billones de años
+  3. [RoboForm estandard](https://www.roboform.com/es/password-generator) 6Ge@VNbjWGaPDmn#ZpusPt → Tiempo crack: 200 billones de billones de años
+  4. [ciberprotector.com](https://ciberprotector.com/generador-de-contrase%C3%B1as-online/) 6h9q94au5yogq9d → Tiempo crack: 3 billones de años
+  5. [Pin tarjeta credito] 4235 → Tiempo crack: 0.4 segundos
+  
 - Lección: [longitud > complejidad].
 
 ## Tiempo invertido
