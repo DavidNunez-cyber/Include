@@ -21,9 +21,12 @@
 - **Más útil**: Ejemplos reales 2025 + relación con Java/web dev (inputs, deps, security).  
 - **IA diferencia**: Bing más "práctico/dev-oriented"; GPT "teórico/técnico". Ambas confirman necesidad **siempre validar/sanitizar**.  
 - Nivel confianza pre: 2/5 → post: 3.5/5.
+- 
+## Tiempo invertido
+- Total: 120 minutos.
+- Bloqueos: Ninguno 
 
-**Tiempo**: 2h (30min PDF, 1h IA, 30min tabla).  
 **Recursos**: [Glosario INCIBE](https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf)
-
 ---
-*David Nuñez - DavidNunez-cyber - Fundación GoodJob 2026*
+
+*Documentado por David Nuñez - Preparación curso IT/Ciberseguridad marzo 2026. Fundación GoodJob.*
