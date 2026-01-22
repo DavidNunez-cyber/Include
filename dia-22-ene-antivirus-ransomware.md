@@ -45,12 +45,26 @@ Capturas Avast Free:
 
 ## 3. Password Monster
 - 5 contraseñas generadas:  
-  1. [LastPassword estandard](https://www.lastpass.com/es/features/password-generator) n"W9,R-5c8-7 → Tiempo crack: 857 mil millones de años 
-  2. [1Ppassword.com estandard](CjwKCAiAssfLBhBDEiwAcLpwfjQcx9RCccXSvH8OY3MzgrjUKYrHtySi3HvuTAsUai3l38LIvXFwyhoCNPsQAvD_BwE) 3q9afQ3JBig23VKKY4e1 → Tiempo crack: 24 millones de billones de años
-  3. [RoboForm estandard](https://www.roboform.com/es/password-generator) 6Ge@VNbjWGaPDmn#ZpusPt → Tiempo crack: 200 billones de billones de años
-  4. [ciberprotector.com](https://ciberprotector.com/generador-de-contrase%C3%B1as-online/) 6h9q94au5yogq9d → Tiempo crack: 3 billones de años
-  5. [Pin tarjeta credito] 4235 → Tiempo crack: 0.4 segundos
-  
+  1. [LastPassword estandard](https://www.lastpass.com/es/features/password-generator) n"W9,R-5c8-7 → Tiempo crack: 857 mil millones de años
+
+     <img width="609" height="345" alt="Screenshot 2026-01-22 195642" src="https://github.com/user-attachments/assets/30d07ca8-700c-49ff-90f2-d25166a4b981" />
+
+  3. [1Ppassword.com estandard](CjwKCAiAssfLBhBDEiwAcLpwfjQcx9RCccXSvH8OY3MzgrjUKYrHtySi3HvuTAsUai3l38LIvXFwyhoCNPsQAvD_BwE) 3q9afQ3JBig23VKKY4e1 → Tiempo crack: 24 millones de billones de años
+     
+     <img width="609" height="339" alt="Screenshot 2026-01-22 223527" src="https://github.com/user-attachments/assets/c33af259-def3-45c0-a734-6b21d688e6f2" />
+
+  4. [RoboForm estandard](https://www.roboform.com/es/password-generator) 6Ge@VNbjWGaPDmn#ZpusPt → Tiempo crack: 200 billones de billones de años
+
+     <img width="604" height="294" alt="Screenshot 2026-01-22 223547" src="https://github.com/user-attachments/assets/50e6b0eb-12a6-43d2-a90e-85f75dccdb40" />
+
+  5. [ciberprotector.com](https://ciberprotector.com/generador-de-contrase%C3%B1as-online/) 6h9q94au5yogq9d → Tiempo crack: 3 billones de años
+     
+     <img width="611" height="335" alt="Screenshot 2026-01-22 223747" src="https://github.com/user-attachments/assets/a5854db2-9930-4ea0-ab27-abe8ca621f16" />
+
+  6. Pin tarjeta credito 4235 → Tiempo crack: 0.4 segundos
+     
+  <img width="604" height="289" alt="Screenshot 2026-01-22 223916" src="https://github.com/user-attachments/assets/ce0c32d8-ec12-4682-80b3-c92e23d604bb" />
+
 - Lección: [longitud > complejidad].
 
 ## Tiempo invertido
