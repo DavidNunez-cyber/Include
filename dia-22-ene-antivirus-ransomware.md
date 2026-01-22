@@ -63,7 +63,7 @@ Capturas Avast Free:
 
   6. Pin tarjeta credito 4235 → Tiempo crack: 0.4 segundos
      
-  <img width="604" height="289" alt="Screenshot 2026-01-22 223916" src="https://github.com/user-attachments/assets/ce0c32d8-ec12-4682-80b3-c92e23d604bb" />
+    <img width="604" height="289" alt="Screenshot 2026-01-22 223916" src="https://github.com/user-attachments/assets/ce0c32d8-ec12-4682-80b3-c92e23d604bb" />
 
 - Lección: [longitud > complejidad].
 
