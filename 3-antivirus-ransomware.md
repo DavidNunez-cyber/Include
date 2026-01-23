@@ -68,7 +68,7 @@ Capturas Avast Free:
 - Lección: mayor longitud > mayor complejidad.
 
 ## Tiempo invertido
-- Total: 90 minutos.
+- Total: 120 minutos.
 - Bloqueos: Ninguno 
 
 ---
