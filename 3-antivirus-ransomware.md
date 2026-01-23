@@ -1,4 +1,4 @@
-# Día 3: Antivirus + Ransomware + Passwords
+# 3 - Antivirus + Ransomware + Passwords
 
 **Objetivo**: Actividades específicas ciber básicas.[file:1]
 

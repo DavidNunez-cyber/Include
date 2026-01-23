@@ -1,4 +1,4 @@
-# Día 1: 20 enero 2026 - Setup inicial GitHub (Itinerarios Pre-Cero e INCLUDE)
+# 1 - Setup inicial GitHub (Itinerarios Pre-Cero e INCLUDE)
 
 **Objetivo de hoy**: Preparar entorno GitHub para documentar todo el progreso, como pide el itinerario [INCLUDE]( https://github.com/DavidNunez-cyber/Include/blob/main/documentos/ITINERARIO_PRE_INCLUDE.pdf).
 

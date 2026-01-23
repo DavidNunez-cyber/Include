@@ -1,4 +1,4 @@
-# Día 2: 21 enero 2026 - Glosario Ciberseguridad (Conocimientos genéricos)
+# 2 - Glosario Ciberseguridad (Conocimientos genéricos)
 
 **Objetivo**: Leer y resumir glosario INCIBE esencial para transversales Cero/INCLUDE. Usar IA para reforzar comprensión.[file:1][file:2]
 
