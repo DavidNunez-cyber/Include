@@ -49,3 +49,11 @@ Yo lo adapto a **Windows 11** como sistema Windows principal (mismo objetivo té
 - Disco virtual: 40 GB, VDI, dinámico
 - Red: NAT
 - ISO asociada: ISO oficial Windows 11
+
+#### 3.1.2 Instalación paso a paso (resumen)
+
+1. Arranque desde la ISO → pantalla de idioma y edición.  
+2. Acepto términos, instalación personalizada, selecciono el disco virtual creado.  
+3. Proceso de copia de archivos y reinicios automáticos.  
+4. Configuración inicial (zona horaria, usuario `AlumnoInclude`, sin contraseña / con contraseña sencilla).  
+5. Llegada al escritorio de Windows 11.
