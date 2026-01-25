@@ -21,7 +21,7 @@ Según el documento:
 El documento indica descargar las siguientes ISOs: 
 > “Kali Linux, Windows 10, Windows 11”
 
-En mi caso, por disponibilidad actual, usaré **Windows 11** en lugar de Windows 10, manteniendo el mismo objetivo (una VM Windows + una VM Kali).[2]
+En mi caso, por disponibilidad actual, usaré **Windows 11** en lugar de Windows 10, manteniendo el mismo objetivo (una VM Windows + una VM Kali).
 
 | VM | Fuente | Link descarga | Captura VM en hypervisor |
 |----|--------|----------------|--------------------------|
@@ -83,3 +83,12 @@ Esto cumple igualmente el objetivo del itinerario (disponer de una máquina Kali
 <img width="802" height="686" alt="Screenshot 2026-01-25 193512" src="https://github.com/user-attachments/assets/08e59135-fc6b-4cd3-af40-0b00c1ca7446" />
 <img width="802" height="686" alt="Screenshot 2026-01-25 193525" src="https://github.com/user-attachments/assets/d66aa236-9c1c-4a49-8f4a-073abd1d3e69" />
 <img width="802" height="686" alt="Screenshot 2026-01-25 193601" src="https://github.com/user-attachments/assets/5d2e3bdc-0f52-4acc-8a77-e3cca5d3f9a1" />
+
+## Tiempo invertido
+- Total: 4 horas.
+- Bloqueos: Ninguno 
+
+---
+
+*Documentado por David Nuñez - Preparación curso IT/Ciberseguridad marzo 2026. Fundación GoodJob.*
+
