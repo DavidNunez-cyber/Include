@@ -57,3 +57,14 @@ Yo lo adapto a **Windows 11** como sistema Windows principal (mismo objetivo té
 3. Proceso de copia de archivos y reinicios automáticos.  
 4. Configuración inicial (zona horaria, usuario `AlumnoInclude`, sin contraseña / con contraseña sencilla).  
 5. Llegada al escritorio de Windows 11.
+
+<img width="946" height="559" alt="Screenshot 2026-01-23 214430" src="https://github.com/user-attachments/assets/3855c9a6-2435-4dc6-a50c-6657e7aab6ee" />
+<img width="946" height="559" alt="Screenshot 2026-01-23 214449" src="https://github.com/user-attachments/assets/52b9c49a-3b57-4714-b65b-747c97028595" />
+<img width="946" height="559" alt="Screenshot 2026-01-23 214506" src="https://github.com/user-attachments/assets/752b0b83-e311-46ce-80b5-3c71be38769f" />
+<img width="946" height="559" alt="Screenshot 2026-01-23 214519" src="https://github.com/user-attachments/assets/ca5b7150-e6c3-41b3-858c-fceace83bc4b" />
+<img width="1920" height="1080" alt="Screenshot 2026-01-23 214649" src="https://github.com/user-attachments/assets/d6db313e-9a4f-4459-9875-85b0848460b7" />
+<img width="1920" height="1080" alt="Screenshot 2026-01-23 214705" src="https://github.com/user-attachments/assets/8ef946e7-1cd7-4c8d-b057-063f7cf556d4" />
+<img width="1920" height="1080" alt="Screenshot 2026-01-23 214740" src="https://github.com/user-attachments/assets/f22c3466-e64c-4e0b-a629-54f214879643" />
+<img width="1920" height="1080" alt="Screenshot 2026-01-23 232552" src="https://github.com/user-attachments/assets/5d000fbe-eec4-45c9-9b07-8d2b75f73645" />
+
+
