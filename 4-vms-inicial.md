@@ -50,13 +50,11 @@ Yo lo adapto a **Windows 11** como sistema Windows principal (mismo objetivo té
 - Red: NAT
 - ISO asociada: ISO oficial Windows 11
 
-#### 3.1.2 Instalación paso a paso (resumen)
+#### 3.1.2 Instalación destendida
 
-1. Arranque desde la ISO → pantalla de idioma y edición.  
-2. Acepto términos, instalación personalizada, selecciono el disco virtual creado.  
-3. Proceso de copia de archivos y reinicios automáticos.  
-4. Configuración inicial (zona horaria, usuario `AlumnoInclude`, sin contraseña / con contraseña sencilla).  
-5. Llegada al escritorio de Windows 11.
+En lugar de seguir un asistente manual clásico, he utilizado una **ISO de Windows 11 con instalación desatendida**, que automatiza los pasos de idioma, particionado y creación de usuario. El resultado final es equivalente a la instalación paso a paso que describe el itinerario (sistema limpio, usuario creado y escritorio operativo).
+
+**Capturas:**
 
 <img width="946" height="559" alt="Screenshot 2026-01-23 214430" src="https://github.com/user-attachments/assets/3855c9a6-2435-4dc6-a50c-6657e7aab6ee" />
 <img width="946" height="559" alt="Screenshot 2026-01-23 214449" src="https://github.com/user-attachments/assets/52b9c49a-3b57-4714-b65b-747c97028595" />
@@ -67,34 +65,14 @@ Yo lo adapto a **Windows 11** como sistema Windows principal (mismo objetivo té
 <img width="1920" height="1080" alt="Screenshot 2026-01-23 214740" src="https://github.com/user-attachments/assets/f22c3466-e64c-4e0b-a629-54f214879643" />
 <img width="1920" height="1080" alt="Screenshot 2026-01-23 232552" src="https://github.com/user-attachments/assets/5d000fbe-eec4-45c9-9b07-8d2b75f73645" />
 
-### 3.2 VM Kali Linux en VirtualBox
+### 3.2 VM Kali Linux (imagen lista para VirtualBox)
 
-#### 3.2.1 Configuración de la VM
+En lugar de hacer una instalación tradicional desde el ISO instalador, he utilizado una **imagen oficial de Kali Linux preparada para VirtualBox**, descargada desde la página de Kali (sección Virtual Machines).
 
-- Nombre: `Kali-PreInclude`
-- Hypervisor: VirtualBox
-- Tipo: Linux
-- Versión: Debian (64-bit) / Other Linux (64-bit)
-- RAM asignada: 4 GB
-- Disco virtual: 40 GB, VDI, dinámico
-- Red: NAT
-- ISO asociada: ISO oficial de Kali Linux
+Esto cumple igualmente el objetivo del itinerario (disponer de una máquina Kali funcional para practicar), aunque el proceso es más rápido porque ya viene instalada.
 
-**Capturas sugeridas:**
+**Capturas:**
 
-1. Creación de la VM Kali:  
-   ![cap-kali-vm-creation](RUTA_CAPTURA)
-2. Configuración de almacenamiento con ISO:  
-   ![cap-kali-storage-iso](RUTA_CAPTURA)
-
-#### 3.2.2 Instalación paso a paso (resumen)
-
-1. Arranque ISO → opción **Graphical install**.  
-2. Idioma Español (España), zona horaria y teclado adecuados.  
-3. Particionado guiado → usar todo el disco → todos los ficheros en una partición.  
-4. Creación de usuario (`kaliuser`) y contraseña.  
-5. Instalación del sistema base y entorno gráfico; instalación de GRUB.  
-6. Primer arranque al escritorio de Kali.
 <img width="970" height="694" alt="Screenshot 2026-01-25 193122" src="https://github.com/user-attachments/assets/a48ba3c0-6679-4816-a3fb-bde1dc43810f" />
 <img width="962" height="751" alt="Screenshot 2026-01-25 193248" src="https://github.com/user-attachments/assets/5a9b6141-00ee-4605-91cb-a8f63ab5f36c" />
 <img width="946" height="533" alt="Screenshot 2026-01-25 193315" src="https://github.com/user-attachments/assets/ead7616e-d392-4aad-bd75-c55b6a632b0f" />
@@ -105,12 +83,3 @@ Yo lo adapto a **Windows 11** como sistema Windows principal (mismo objetivo té
 <img width="802" height="686" alt="Screenshot 2026-01-25 193512" src="https://github.com/user-attachments/assets/08e59135-fc6b-4cd3-af40-0b00c1ca7446" />
 <img width="802" height="686" alt="Screenshot 2026-01-25 193525" src="https://github.com/user-attachments/assets/d66aa236-9c1c-4a49-8f4a-073abd1d3e69" />
 <img width="802" height="686" alt="Screenshot 2026-01-25 193601" src="https://github.com/user-attachments/assets/5d2e3bdc-0f52-4acc-8a77-e3cca5d3f9a1" />
-
-**Evidencias:**
-
-- Menú de arranque de instalación gráfica:  
-  ![cap-kali-boot](RUTA_CAPTURA)
-- Pantalla de particionado:  
-  ![cap-kali-partition](RUTA_CAPTURA)
-- Escritorio de Kali funcionando:  
-  ![cap-kali-desktop](RUTA_CAPTURA)
