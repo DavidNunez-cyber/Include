@@ -67,4 +67,50 @@ Yo lo adapto a **Windows 11** como sistema Windows principal (mismo objetivo té
 <img width="1920" height="1080" alt="Screenshot 2026-01-23 214740" src="https://github.com/user-attachments/assets/f22c3466-e64c-4e0b-a629-54f214879643" />
 <img width="1920" height="1080" alt="Screenshot 2026-01-23 232552" src="https://github.com/user-attachments/assets/5d000fbe-eec4-45c9-9b07-8d2b75f73645" />
 
+### 3.2 VM Kali Linux en VirtualBox
 
+#### 3.2.1 Configuración de la VM
+
+- Nombre: `Kali-PreInclude`
+- Hypervisor: VirtualBox
+- Tipo: Linux
+- Versión: Debian (64-bit) / Other Linux (64-bit)
+- RAM asignada: 4 GB
+- Disco virtual: 40 GB, VDI, dinámico
+- Red: NAT
+- ISO asociada: ISO oficial de Kali Linux
+
+**Capturas sugeridas:**
+
+1. Creación de la VM Kali:  
+   ![cap-kali-vm-creation](RUTA_CAPTURA)
+2. Configuración de almacenamiento con ISO:  
+   ![cap-kali-storage-iso](RUTA_CAPTURA)
+
+#### 3.2.2 Instalación paso a paso (resumen)
+
+1. Arranque ISO → opción **Graphical install**.  
+2. Idioma Español (España), zona horaria y teclado adecuados.  
+3. Particionado guiado → usar todo el disco → todos los ficheros en una partición.  
+4. Creación de usuario (`kaliuser`) y contraseña.  
+5. Instalación del sistema base y entorno gráfico; instalación de GRUB.  
+6. Primer arranque al escritorio de Kali.
+<img width="970" height="694" alt="Screenshot 2026-01-25 193122" src="https://github.com/user-attachments/assets/a48ba3c0-6679-4816-a3fb-bde1dc43810f" />
+<img width="962" height="751" alt="Screenshot 2026-01-25 193248" src="https://github.com/user-attachments/assets/5a9b6141-00ee-4605-91cb-a8f63ab5f36c" />
+<img width="946" height="533" alt="Screenshot 2026-01-25 193315" src="https://github.com/user-attachments/assets/ead7616e-d392-4aad-bd75-c55b6a632b0f" />
+<img width="962" height="751" alt="Screenshot 2026-01-25 193326" src="https://github.com/user-attachments/assets/47a19145-6f35-4f11-a8cd-4d6882049130" />
+<img width="962" height="751" alt="Screenshot 2026-01-25 193346" src="https://github.com/user-attachments/assets/83941135-548e-4afb-ac11-f77c97fe53ba" />
+<img width="722" height="486" alt="Screenshot 2026-01-25 193358" src="https://github.com/user-attachments/assets/5a94e6b3-32c8-4f04-bdb6-fecfa9266f5c" />
+<img width="642" height="566" alt="Screenshot 2026-01-25 193409" src="https://github.com/user-attachments/assets/d5b90475-6f6e-4d22-9670-5b50f62296fb" />
+<img width="802" height="686" alt="Screenshot 2026-01-25 193512" src="https://github.com/user-attachments/assets/08e59135-fc6b-4cd3-af40-0b00c1ca7446" />
+<img width="802" height="686" alt="Screenshot 2026-01-25 193525" src="https://github.com/user-attachments/assets/d66aa236-9c1c-4a49-8f4a-073abd1d3e69" />
+<img width="802" height="686" alt="Screenshot 2026-01-25 193601" src="https://github.com/user-attachments/assets/5d2e3bdc-0f52-4acc-8a77-e3cca5d3f9a1" />
+
+**Evidencias:**
+
+- Menú de arranque de instalación gráfica:  
+  ![cap-kali-boot](RUTA_CAPTURA)
+- Pantalla de particionado:  
+  ![cap-kali-partition](RUTA_CAPTURA)
+- Escritorio de Kali funcionando:  
+  ![cap-kali-desktop](RUTA_CAPTURA)
