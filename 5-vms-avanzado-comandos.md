@@ -12,11 +12,11 @@ Completar el nivel Avanzado del apartado “Creación y Gestión de máquinas vi
 
 | Comando | Ejemplo ejecutado (seguro) | Salida (resumen para rellenar) | Para qué sirve |
 |--------|-----------------------------|---------------------------------|----------------|
-| cd | `cd \` | (captura) | Cambiar de directorio actual. |
-| dir | `dir` | (captura) | Listar archivos y carpetas. |
-| copy | `copy C:\temp\origen.txt C:\temp\copia.txt` | (captura) | Copiar archivos. |
-| move | `move C:\temp\copia.txt C:\temp\movido.txt` | (captura) | Mover o renombrar archivos. |
-| del | `del C:\temp\movido.txt` | (captura) | Borrar archivos. |
+| cd | `cd \` | <img width="1026" height="854" alt="Screenshot 2026-01-26 120843" src="https://github.com/user-attachments/assets/886a7054-e071-4720-b745-0fc843b59864" /> | Cambiar de directorio actual. |
+| dir | `dir` | <img width="1026" height="854" alt="Screenshot 2026-01-26 120939" src="https://github.com/user-attachments/assets/b9d93b67-3765-469e-8f3a-3df2ff91c2b3" /> | Listar archivos y carpetas. |
+| copy | `copy C:\temp\origen.txt C:\temp\copia.txt` | <img width="1026" height="864" alt="Screenshot 2026-01-26 121718" src="https://github.com/user-attachments/assets/2c6ba30d-731b-4e01-95a0-545e2d6c6cba" /> | Copiar archivos. |
+| move | `move C:\temp\copia.txt C:\temp\movido.txt` | <img width="1026" height="864" alt="Screenshot 2026-01-26 121758" src="https://github.com/user-attachments/assets/9833b657-4194-4f94-a3c0-d369661c5dd4" /> | Mover o renombrar archivos. |
+| del | `del C:\temp\movido.txt` | <img width="1026" height="864" alt="Screenshot 2026-01-26 121909" src="https://github.com/user-attachments/assets/ba13f40a-824f-4a16-a691-33cc4ad3c4f5" /> | Borrar archivos. |
 | mkdir | `mkdir C:\temp\lab` | (captura) | Crear directorios. |
 | rmdir | `rmdir C:\temp\lab` | (captura) | Borrar directorios (normalmente vacíos). |
 | ipconfig | `ipconfig /all` | (captura) | Ver configuración de red (IP, gateway, DNS, MAC). |
