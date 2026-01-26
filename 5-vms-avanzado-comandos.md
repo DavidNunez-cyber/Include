@@ -34,43 +34,43 @@ Completar el nivel Avanzado del apartado “Creación y Gestión de máquinas vi
 
 ---
 
-## 2. Comandos en Kali Linux (Terminal dentro de la VM)
+## 2) Kali Linux (Terminal en la VM)
 
-> “Usar los siguientes comandos y documentar para qué sirve cada uno:  
-> `ls, cd, pwd, mv, cp, rm, mkdir, rmdir, touch, cat, echo, nano, grep, chmod, ifconfig, ping, netstat, nmap, curl, wget, apt-get, dpkg, tar, unzip, locate, find, history, clear, exit`.
+> Comandos requeridos: `ls, cd, pwd, mv, cp, rm, mkdir, rmdir, touch, cat, echo, nano, grep, chmod, ifconfig, ping, netstat, nmap, curl, wget, apt-get, dpkg, tar, unzip, locate, find, history, clear, exit`.[file:2]
 
-| Comando | Ejemplo ejecutado | Salida (resumen) | Para qué sirve |
-|---------|-------------------|------------------|----------------|
-| ls      | `ls`              | Lista archivos   | Ver contenido de la carpeta |
-| cd      | `cd /tmp`         | Cambia a /tmp    | Cambiar de directorio |
-| pwd     | `pwd`             | Muestra ruta     | Saber dónde estoy |
-| mv      | ...               | ...              | Mover/renombrar archivos |
-| cp      | ...               | ...              | Copiar archivos |
-| rm      | ...               | ...              | Borrar archivos |
-| mkdir   | ...               | ...              | Crear directorios |
-| rmdir   | ...               | ...              | Borrar directorios vacíos |
-| touch   | ...               | ...              | Crear/actualizar archivos vacíos |
-| cat     | ...               | ...              | Mostrar contenido de archivo |
-| echo    | ...               | ...              | Imprimir texto/variables |
-| nano    | ...               | ...              | Editor de texto en terminal |
-| grep    | ...               | ...              | Buscar texto en salida/archivos |
-| chmod   | ...               | ...              | Cambiar permisos |
-| ifconfig| ...               | ...              | Ver interfaces (o `ip a`) |
-| ping    | ...               | ...              | Probar conectividad |
-| netstat | ...               | ...              | Ver conexiones/puertos (o `ss`) |
-| nmap    | ...               | ...              | Escanear puertos/hosts |
-| curl    | ...               | ...              | Peticiones HTTP desde terminal |
-| wget    | ...               | ...              | Descargar archivos |
-| apt-get | ...               | ...              | Gestionar paquetes (instalar/actualizar) |
-| dpkg    | ...               | ...              | Gestionar paquetes .deb |
-| tar     | ...               | ...              | Comprimir/descomprimir archivos tar |
-| unzip   | ...               | ...              | Descomprimir zip |
-| locate  | ...               | ...              | Buscar archivos (base actualizada) |
-| find    | ...               | ...              | Buscar archivos con filtros |
-| history | ...               | ...              | Ver historial de comandos |
-| clear   | ...               | ...              | Limpiar pantalla |
-| exit    | `exit`            | Cierra terminal  | Salir de la shell |
+> Nota: si `ifconfig` o `netstat` no están, instala `net-tools` (`sudo apt-get update && sudo apt-get install net-tools`) y documenta también ese paso.
 
+| Comando | Ejemplo ejecutado (seguro) | Salida (resumen para rellenar) | Para qué sirve |
+|--------|-----------------------------|---------------------------------|----------------|
+| ls | `ls -la` | (captura) | Listar archivos y permisos. |
+| cd | `cd /tmp` | (captura) | Cambiar de directorio. |
+| pwd | `pwd` | (captura) | Mostrar ruta actual. |
+| mv | `mv /tmp/a.txt /tmp/b.txt` | (captura) | Mover o renombrar archivos. |
+| cp | `cp /tmp/b.txt /tmp/c.txt` | (captura) | Copiar archivos. |
+| rm | `rm /tmp/c.txt` | (captura) | Borrar archivos (evita `rm -rf` en este ejercicio). |
+| mkdir | `mkdir -p /tmp/lab` | (captura) | Crear directorios. |
+| rmdir | `rmdir /tmp/lab` | (captura) | Borrar directorios vacíos. |
+| touch | `touch /tmp/a.txt` | (captura) | Crear archivo vacío / actualizar timestamp. |
+| cat | `cat /tmp/b.txt` | (captura) | Mostrar contenido de archivo. |
+| echo | `echo "hola kali" > /tmp/b.txt` | (captura) | Imprimir texto o escribir a archivo. |
+| nano | `nano /tmp/nano.txt` | (captura) | Editar archivos en terminal (guardar con Ctrl+O, salir Ctrl+X). |
+| grep | `grep -n "hola" /tmp/b.txt` | (captura) | Buscar patrones en texto/archivos. |
+| chmod | `chmod 644 /tmp/b.txt` | (captura) | Cambiar permisos (lectura/escritura/ejecución). |
+| ifconfig | `ifconfig` | (captura) | Ver interfaces de red (alternativa moderna: `ip a`). |
+| ping | `ping -c 4 8.8.8.8` | (captura) | Probar conectividad con número limitado de paquetes. |
+| netstat | `netstat -tulpn` | (captura) | Ver puertos en escucha y procesos asociados. |
+| nmap | `nmap -sV 127.0.0.1` | (captura) | Escanear puertos/servicios (usa localhost para no escanear terceros). |
+| curl | `curl -I https://example.com` | (captura) | Hacer peticiones HTTP (headers, APIs, etc.). |
+| wget | `wget -O /tmp/example.html https://example.com` | (captura) | Descargar archivos vía HTTP/HTTPS. |
+| apt-get | `sudo apt-get update` | (captura) | Actualizar índice de paquetes e instalar/actualizar software. |
+| dpkg | `dpkg -l | head` | (captura) | Listar paquetes instalados (gestión .deb). |
+| tar | `tar -czf /tmp/lab.tar.gz -C /tmp b.txt` | (captura) | Comprimir/descomprimir tar (con gzip). |
+| unzip | `unzip -v | head` | (captura) | Gestionar ZIP; para evidencia puedes mostrar versión/ayuda si no tienes zip real. |
+| locate | `sudo updatedb` y luego `locate bash | head` | (captura) | Buscar por base de datos (requiere actualizarla). |
+| find | `find /tmp -maxdepth 1 -type f -name "*.txt"` | (captura) | Buscar archivos por criterios (nombre, tipo, etc.). |
+| history | `history | tail` | (captura) | Ver historial de comandos. |
+| clear | `clear` | (captura) | Limpiar pantalla. |
+| exit | `exit` | (captura) | Salir de la shell / cerrar terminal.
 ---
 
 
