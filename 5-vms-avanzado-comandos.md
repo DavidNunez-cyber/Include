@@ -5,12 +5,16 @@ Completar el nivel Avanzado del apartado “Creación y Gestión de máquinas vi
 
 ---
 
-## 1. Comandos en Windows (CMD dentro de la VM)
+## 1. Comandos en Windows (CMD)
 
-> “Usar los siguientes comandos y documentar para qué sirve cada uno:  
+> Usar los siguientes comandos y documentar para qué sirve cada uno:  
 > `cd, dir, copy, move, del, mkdir, rmdir, ipconfig, ping, netstat, shutdown, echo, cls, type, chkdsk, format, attrib, exit`.
 
-| Comando | Ejemplo ejecutado (seguro) | Salida (resumen para rellenar) | Para qué sirve |
+**Preparación:**
+1. `mkdir C:\temp`
+2. `echo test > C:\temp\origen.txt`
+
+| Comando | Ejemplo ejecutado | Captura | Para qué sirve |
 |--------|-----------------------------|---------------------------------|----------------|
 | cd | `cd \` | <img width="1026" height="854" alt="Screenshot 2026-01-26 120843" src="https://github.com/user-attachments/assets/886a7054-e071-4720-b745-0fc843b59864" /> | Cambiar de directorio actual. |
 | dir | `dir` | <img width="1026" height="854" alt="Screenshot 2026-01-26 120939" src="https://github.com/user-attachments/assets/b9d93b67-3765-469e-8f3a-3df2ff91c2b3" /> | Listar archivos y carpetas. |
@@ -33,11 +37,17 @@ Completar el nivel Avanzado del apartado “Creación y Gestión de máquinas vi
 
 ---
 
-## 2) Kali Linux (Terminal en la VM)
+## 2. Comandos en Kali Linux (Terminal)
 
-> Comandos requeridos: `ls, cd, pwd, mv, cp, rm, mkdir, rmdir, touch, cat, echo, nano, grep, chmod, ifconfig, ping, netstat, nmap, curl, wget, apt-get, dpkg, tar, unzip, locate, find, history, clear, exit`.
+> Usar los siguientes comandos y documentar para qué sirve cada uno:  
+> `ls, cd, pwd, mv, cp, rm, mkdir, rmdir, touch, cat, echo, nano, grep, chmod, ifconfig, ping, netstat, nmap, curl, wget, apt-get, dpkg, tar, unzip, locate, find, history, clear, exit`.
 
-| Comando | Ejemplo ejecutado (seguro) | Salida (resumen para rellenar) | Para qué sirve |
+**Preparación:**
+1. `cd /tmp`
+2. `echo "hola kali" > b.txt`
+3. `touch a.txt`
+
+| Comando | Ejemplo ejecutado | Salida (resumen para rellenar) | Para qué sirve |
 |--------|-----------------------------|---------------------------------|----------------|
 | ls | `ls -la` | <img width="725" height="885" alt="Screenshot 2026-01-26 130526" src="https://github.com/user-attachments/assets/304fec7c-9cc1-4788-835a-92b87dd100c6" /> | Listar archivos y permisos. |
 | cd | `cd /tmp` | <img width="725" height="885" alt="Screenshot 2026-01-26 130557" src="https://github.com/user-attachments/assets/02294efb-c400-428b-9aca-bc26169d0da1" /> | Cambiar de directorio. |
