@@ -72,7 +72,7 @@ Completar el nivel Avanzado del apartado “Creación y Gestión de máquinas vi
 ---
 
 ## Tiempo invertido
-- Total: 3 horas.
+- Total: 4 horas.
 - Bloqueos: Ninguno 
 
 ---
