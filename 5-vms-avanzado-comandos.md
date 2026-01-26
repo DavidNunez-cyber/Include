@@ -31,33 +31,30 @@ Completar el nivel Avanzado del apartado “Creación y Gestión de máquinas vi
 | attrib | `attrib C:\temp\hola.txt` | <img width="1026" height="854" alt="Screenshot 2026-01-26 124103" src="https://github.com/user-attachments/assets/6d68fe54-46ae-41c8-ba83-74b260ce5200" /> | Ver/cambiar atributos (R, H, S, A) de archivos. |
 | exit | `exit` | <img width="1026" height="854" alt="Screenshot 2026-01-26 124113" src="https://github.com/user-attachments/assets/bf3bade5-eb8e-4e0f-99e4-c4cd2fd93771" /> | Cerrar la ventana de CMD. |
 
-
 ---
 
 ## 2) Kali Linux (Terminal en la VM)
 
-> Comandos requeridos: `ls, cd, pwd, mv, cp, rm, mkdir, rmdir, touch, cat, echo, nano, grep, chmod, ifconfig, ping, netstat, nmap, curl, wget, apt-get, dpkg, tar, unzip, locate, find, history, clear, exit`.[file:2]
-
-> Nota: si `ifconfig` o `netstat` no están, instala `net-tools` (`sudo apt-get update && sudo apt-get install net-tools`) y documenta también ese paso.
+> Comandos requeridos: `ls, cd, pwd, mv, cp, rm, mkdir, rmdir, touch, cat, echo, nano, grep, chmod, ifconfig, ping, netstat, nmap, curl, wget, apt-get, dpkg, tar, unzip, locate, find, history, clear, exit`.
 
 | Comando | Ejemplo ejecutado (seguro) | Salida (resumen para rellenar) | Para qué sirve |
 |--------|-----------------------------|---------------------------------|----------------|
-| ls | `ls -la` | (captura) | Listar archivos y permisos. |
-| cd | `cd /tmp` | (captura) | Cambiar de directorio. |
-| pwd | `pwd` | (captura) | Mostrar ruta actual. |
-| mv | `mv /tmp/a.txt /tmp/b.txt` | (captura) | Mover o renombrar archivos. |
-| cp | `cp /tmp/b.txt /tmp/c.txt` | (captura) | Copiar archivos. |
-| rm | `rm /tmp/c.txt` | (captura) | Borrar archivos (evita `rm -rf` en este ejercicio). |
-| mkdir | `mkdir -p /tmp/lab` | (captura) | Crear directorios. |
-| rmdir | `rmdir /tmp/lab` | (captura) | Borrar directorios vacíos. |
-| touch | `touch /tmp/a.txt` | (captura) | Crear archivo vacío / actualizar timestamp. |
-| cat | `cat /tmp/b.txt` | (captura) | Mostrar contenido de archivo. |
-| echo | `echo "hola kali" > /tmp/b.txt` | (captura) | Imprimir texto o escribir a archivo. |
-| nano | `nano /tmp/nano.txt` | (captura) | Editar archivos en terminal (guardar con Ctrl+O, salir Ctrl+X). |
-| grep | `grep -n "hola" /tmp/b.txt` | (captura) | Buscar patrones en texto/archivos. |
-| chmod | `chmod 644 /tmp/b.txt` | (captura) | Cambiar permisos (lectura/escritura/ejecución). |
-| ifconfig | `ifconfig` | (captura) | Ver interfaces de red (alternativa moderna: `ip a`). |
-| ping | `ping -c 4 8.8.8.8` | (captura) | Probar conectividad con número limitado de paquetes. |
+| ls | `ls -la` | <img width="725" height="885" alt="Screenshot 2026-01-26 130526" src="https://github.com/user-attachments/assets/304fec7c-9cc1-4788-835a-92b87dd100c6" /> | Listar archivos y permisos. |
+| cd | `cd /tmp` | <img width="725" height="885" alt="Screenshot 2026-01-26 130557" src="https://github.com/user-attachments/assets/02294efb-c400-428b-9aca-bc26169d0da1" /> | Cambiar de directorio. |
+| pwd | `pwd` | <img width="725" height="885" alt="Screenshot 2026-01-26 130612" src="https://github.com/user-attachments/assets/77f338ed-e6ad-4afc-a49b-449a178e979b" /> | Mostrar ruta actual. |
+| mv | `mv /tmp/a.txt /tmp/b.txt` | <img width="725" height="885" alt="Screenshot 2026-01-26 130745" src="https://github.com/user-attachments/assets/94161a72-2183-4409-b29c-4795f287efa3" /> | Mover o renombrar archivos. |
+| cp | `cp /tmp/b.txt /tmp/c.txt` | <img width="725" height="885" alt="Screenshot 2026-01-26 130810" src="https://github.com/user-attachments/assets/5785665b-6825-4929-b69f-5bf12cc8e11c" /> | Copiar archivos. |
+| rm | `rm /tmp/c.txt` | (captura) | Borrar archivos. |
+| mkdir | `mkdir -p /tmp/lab` | <img width="725" height="885" alt="Screenshot 2026-01-26 130853" src="https://github.com/user-attachments/assets/41fc98ab-92cd-4cb8-98b9-3b7a498ac193" /> | Crear directorios. |
+| rmdir | `rmdir /tmp/lab` | <img width="725" height="885" alt="Screenshot 2026-01-26 130906" src="https://github.com/user-attachments/assets/9436fab4-8760-4257-910c-27684a6cc4c3" /> | Borrar directorios vacíos. |
+| touch | `touch /tmp/a.txt` | <img width="725" height="885" alt="Screenshot 2026-01-26 130928" src="https://github.com/user-attachments/assets/0ed08d33-fe24-4c0c-9ffd-6b7661d187af" /> | Crear archivo vacío / actualizar timestamp. |
+| cat | `cat /tmp/b.txt` | <img width="725" height="885" alt="Screenshot 2026-01-26 130949" src="https://github.com/user-attachments/assets/eaa78e0f-eb30-44ef-af95-8a9edbecb1ab" /> | Mostrar contenido de archivo. |
+| echo | `echo "hola kali" > /tmp/b.txt` | <img width="725" height="885" alt="Screenshot 2026-01-26 131006" src="https://github.com/user-attachments/assets/cace5576-74ea-4abc-b393-f168929c9f18" /> | Imprimir texto o escribir a archivo. |
+| nano | `nano /tmp/nano.txt` | <img width="725" height="885" alt="Screenshot 2026-01-26 131231" src="https://github.com/user-attachments/assets/5d4fde48-a57a-4325-980e-3473c3425cf3" /> <img width="725" height="885" alt="Screenshot 2026-01-26 131255" src="https://github.com/user-attachments/assets/c19b1aed-0696-4889-8022-d81a3eb7059e" /> | Editar archivos en terminal (guardar con Ctrl+O, salir Ctrl+X). |
+| grep | `grep -n "hola" /tmp/b.txt` | <img width="725" height="885" alt="Screenshot 2026-01-26 131318" src="https://github.com/user-attachments/assets/6e93172e-dbd6-4044-ae4e-2f92dae9d83a" /> | Buscar patrones en texto/archivos. |
+| chmod | `chmod 644 /tmp/b.txt` | <img width="725" height="885" alt="Screenshot 2026-01-26 131414" src="https://github.com/user-attachments/assets/448a5a48-cd12-4fe9-b4e3-5aecf3c86410" /> | Cambiar permisos (lectura/escritura/ejecución). |
+| ifconfig | `ifconfig` | <img width="725" height="885" alt="Screenshot 2026-01-26 131759" src="https://github.com/user-attachments/assets/f2c27928-011e-458c-bf1d-959ce4d3c716" /> | Ver interfaces de red (alternativa moderna: `ip a`). |
+| ping | `ping -c 4 8.8.8.8` | <img width="725" height="885" alt="Screenshot 2026-01-26 131835" src="https://github.com/user-attachments/assets/f8a16d0d-09d1-4e3f-80ab-77a57e11378c" /> | Probar conectividad con número limitado de paquetes. |
 | netstat | `netstat -tulpn` | (captura) | Ver puertos en escucha y procesos asociados. |
 | nmap | `nmap -sV 127.0.0.1` | (captura) | Escanear puertos/servicios (usa localhost para no escanear terceros). |
 | curl | `curl -I https://example.com` | (captura) | Hacer peticiones HTTP (headers, APIs, etc.). |
