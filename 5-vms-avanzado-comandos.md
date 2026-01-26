@@ -47,7 +47,7 @@ Completar el nivel Avanzado del apartado “Creación y Gestión de máquinas vi
 2. `echo "hola kali" > b.txt`
 3. `touch a.txt`
 
-| Comando | Ejemplo ejecutado | Salida (resumen para rellenar) | Para qué sirve |
+| Comando | Ejemplo ejecutado | Captura | Para qué sirve |
 |--------|-----------------------------|---------------------------------|----------------|
 | ls | `ls -la` | <img width="725" height="885" alt="Screenshot 2026-01-26 130526" src="https://github.com/user-attachments/assets/304fec7c-9cc1-4788-835a-92b87dd100c6" /> | Listar archivos y permisos. |
 | cd | `cd /tmp` | <img width="725" height="885" alt="Screenshot 2026-01-26 130557" src="https://github.com/user-attachments/assets/02294efb-c400-428b-9aca-bc26169d0da1" /> | Cambiar de directorio. |
