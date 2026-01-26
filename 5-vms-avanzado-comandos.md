@@ -44,7 +44,8 @@ Completar el nivel Avanzado del apartado “Creación y Gestión de máquinas vi
 | pwd | `pwd` | <img width="725" height="885" alt="Screenshot 2026-01-26 130612" src="https://github.com/user-attachments/assets/77f338ed-e6ad-4afc-a49b-449a178e979b" /> | Mostrar ruta actual. |
 | mv | `mv /tmp/a.txt /tmp/b.txt` | <img width="725" height="885" alt="Screenshot 2026-01-26 130745" src="https://github.com/user-attachments/assets/94161a72-2183-4409-b29c-4795f287efa3" /> | Mover o renombrar archivos. |
 | cp | `cp /tmp/b.txt /tmp/c.txt` | <img width="725" height="885" alt="Screenshot 2026-01-26 130810" src="https://github.com/user-attachments/assets/5785665b-6825-4929-b69f-5bf12cc8e11c" /> | Copiar archivos. |
-| rm | `rm /tmp/c.txt` | (captura) | Borrar archivos. |
+| rm | `rm /tmp/c.txt` | <img width="725" height="885" alt="Screenshot 2026-01-26 140213" src="https://github.com/user-attachments/assets/76ada0ac-9bb1-45db-acca-bc80ac69c936" />
+| Borrar archivos. |
 | mkdir | `mkdir -p /tmp/lab` | <img width="725" height="885" alt="Screenshot 2026-01-26 130853" src="https://github.com/user-attachments/assets/41fc98ab-92cd-4cb8-98b9-3b7a498ac193" /> | Crear directorios. |
 | rmdir | `rmdir /tmp/lab` | <img width="725" height="885" alt="Screenshot 2026-01-26 130906" src="https://github.com/user-attachments/assets/9436fab4-8760-4257-910c-27684a6cc4c3" /> | Borrar directorios vacíos. |
 | touch | `touch /tmp/a.txt` | <img width="725" height="885" alt="Screenshot 2026-01-26 130928" src="https://github.com/user-attachments/assets/0ed08d33-fe24-4c0c-9ffd-6b7661d187af" /> | Crear archivo vacío / actualizar timestamp. |
