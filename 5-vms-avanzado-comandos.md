@@ -55,19 +55,19 @@ Completar el nivel Avanzado del apartado “Creación y Gestión de máquinas vi
 | chmod | `chmod 644 /tmp/b.txt` | <img width="725" height="885" alt="Screenshot 2026-01-26 131414" src="https://github.com/user-attachments/assets/448a5a48-cd12-4fe9-b4e3-5aecf3c86410" /> | Cambiar permisos (lectura/escritura/ejecución). |
 | ifconfig | `ifconfig` | <img width="725" height="885" alt="Screenshot 2026-01-26 131759" src="https://github.com/user-attachments/assets/f2c27928-011e-458c-bf1d-959ce4d3c716" /> | Ver interfaces de red (alternativa moderna: `ip a`). |
 | ping | `ping -c 4 8.8.8.8` | <img width="725" height="885" alt="Screenshot 2026-01-26 131835" src="https://github.com/user-attachments/assets/f8a16d0d-09d1-4e3f-80ab-77a57e11378c" /> | Probar conectividad con número limitado de paquetes. |
-| netstat | `netstat -tulpn` | (captura) | Ver puertos en escucha y procesos asociados. |
-| nmap | `nmap -sV 127.0.0.1` | (captura) | Escanear puertos/servicios (usa localhost para no escanear terceros). |
-| curl | `curl -I https://example.com` | (captura) | Hacer peticiones HTTP (headers, APIs, etc.). |
-| wget | `wget -O /tmp/example.html https://example.com` | (captura) | Descargar archivos vía HTTP/HTTPS. |
-| apt-get | `sudo apt-get update` | (captura) | Actualizar índice de paquetes e instalar/actualizar software. |
-| dpkg | `dpkg -l | head` | (captura) | Listar paquetes instalados (gestión .deb). |
-| tar | `tar -czf /tmp/lab.tar.gz -C /tmp b.txt` | (captura) | Comprimir/descomprimir tar (con gzip). |
-| unzip | `unzip -v | head` | (captura) | Gestionar ZIP; para evidencia puedes mostrar versión/ayuda si no tienes zip real. |
-| locate | `sudo updatedb` y luego `locate bash | head` | (captura) | Buscar por base de datos (requiere actualizarla). |
-| find | `find /tmp -maxdepth 1 -type f -name "*.txt"` | (captura) | Buscar archivos por criterios (nombre, tipo, etc.). |
-| history | `history | tail` | (captura) | Ver historial de comandos. |
-| clear | `clear` | (captura) | Limpiar pantalla. |
-| exit | `exit` | (captura) | Salir de la shell / cerrar terminal.
----
+| netstat | `netstat -tulpn` | <img width="725" height="885" alt="Screenshot 2026-01-26 131926" src="https://github.com/user-attachments/assets/cf714262-7c4c-4d05-9549-3ba8fe686427" /> | Ver puertos en escucha y procesos asociados. |
+| nmap | `nmap -sV 127.0.0.1` | <img width="725" height="885" alt="Screenshot 2026-01-26 131950" src="https://github.com/user-attachments/assets/e875584c-4032-45b3-b8ad-e78214d52130" /> | Escanear puertos/servicios (usa localhost para no escanear terceros). |
+| curl | `curl -I https://example.com` | <img width="725" height="885" alt="Screenshot 2026-01-26 132024" src="https://github.com/user-attachments/assets/35449420-3fc0-4dc0-88a4-b3660090a622" /> | Hacer peticiones HTTP (headers, APIs, etc.). |
+| wget | `wget -O /tmp/example.html https://example.com` | <img width="725" height="885" alt="Screenshot 2026-01-26 132048" src="https://github.com/user-attachments/assets/a8f9d8ee-622b-46bf-bbb7-265b6f860023" /> | Descargar archivos vía HTTP/HTTPS. |
+| apt-get | `sudo apt-get update` | <img width="725" height="885" alt="Screenshot 2026-01-26 132115" src="https://github.com/user-attachments/assets/4ba7e914-7e9a-4749-8b89-d527522b791a" /> | Actualizar índice de paquetes e instalar/actualizar software. |
+| dpkg | `dpkg -l | head` | <img width="725" height="885" alt="Screenshot 2026-01-26 132140" src="https://github.com/user-attachments/assets/081604f6-216d-41ce-82c6-6f562614d552" /> | Listar paquetes instalados (gestión .deb). |
+| tar | `tar -czf /tmp/lab.tar.gz -C /tmp b.txt` | <img width="725" height="885" alt="Screenshot 2026-01-26 132212" src="https://github.com/user-attachments/assets/18f57a36-bc5e-4ba0-b891-da770eccce76" /> | Comprimir/descomprimir tar (con gzip). |
+| unzip | `unzip -v | head` | <img width="725" height="885" alt="Screenshot 2026-01-26 132259" src="https://github.com/user-attachments/assets/a8039cf5-604e-4778-966c-ea47d8049a0d" /> | Gestionar ZIP; para evidencia puedes mostrar versión/ayuda si no tienes zip real. |
+| locate | `sudo updatedb` y luego `locate bash | head` | <img width="725" height="885" alt="Screenshot 2026-01-26 132342" src="https://github.com/user-attachments/assets/ddf7f8f0-cfae-4d73-850b-69d0bee40385" /> | Buscar por base de datos (requiere actualizarla). |
+| find | `find /tmp -maxdepth 1 -type f -name "*.txt"` | <img width="725" height="885" alt="Screenshot 2026-01-26 132411" src="https://github.com/user-attachments/assets/58c01013-a11d-4988-9291-6c86cb01605f" /> | Buscar archivos por criterios (nombre, tipo, etc.). |
+| history | `history | tail` | <img width="725" height="885" alt="Screenshot 2026-01-26 132439" src="https://github.com/user-attachments/assets/d15f1c21-bd71-4515-a016-e44f9103677c" /> | Ver historial de comandos. |
+| clear | `clear` | <img width="725" height="885" alt="Screenshot 2026-01-26 132451" src="https://github.com/user-attachments/assets/28a34536-6f36-4c60-bfb0-da57dd42e14d" /> <img width="725" height="885" alt="Screenshot 2026-01-26 132457" src="https://github.com/user-attachments/assets/ef830c52-74ef-45b7-81e6-27ba1940d7cd" /> | Limpiar pantalla. |
+| exit | `exit` | <img width="725" height="885" alt="Screenshot 2026-01-26 132504" src="https://github.com/user-attachments/assets/e9be7c50-a7d1-4f05-94da-e48a4c046c2a" /> <img width="725" height="885" alt="Screenshot 2026-01-26 132510" src="https://github.com/user-attachments/assets/9c60440a-1614-4542-b1bc-b50f4b2f4f12" /> | Salir de la shell / cerrar terminal.
 
+---
 
