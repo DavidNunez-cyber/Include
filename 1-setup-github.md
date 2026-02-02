@@ -61,6 +61,3 @@ Vista en perfil: [DavidNunez-cyber](https://github.com/DavidNunez-cyber/DavidNun
 ---
 
 *Documentado por David Nuñez - Preparación curso IT/Ciberseguridad marzo 2026. Fundación GoodJob.*
-
-
-

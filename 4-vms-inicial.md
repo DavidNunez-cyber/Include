@@ -91,4 +91,3 @@ Esto cumple igualmente el objetivo del itinerario (disponer de una máquina Kali
 ---
 
 *Documentado por David Nuñez - Preparación curso IT/Ciberseguridad marzo 2026. Fundación GoodJob.*
-
